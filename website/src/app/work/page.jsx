@@ -19,6 +19,21 @@ import Image from "next/image";
 const Work = () => {
   const projects = [
     {
+      title: "Tomato E-commerce Website",
+      description:
+        "A web-based (Frontend) platform that allows users to browse through various restaurants, view their menus, and place orders for delivery. It includes features such as user authentication, menu customization, order tracking, and payment processing.",
+      stack: [
+        { icon: <FaReact />, name: "React.js" },
+        { icon: <FaNodeJs />, name: "Node.js" },
+        { icon: <SiExpress />, name: "Express" },
+        { icon: <FaHtml5 />, name: "HTML5" },
+        { icon: <FaCss3Alt />, name: "CSS3" },
+      ],
+      projectLink: "#",
+      sourceCodeLink: "https://github.com/1zhanN/food-delivery",
+    },
+
+    {
       title: "Pokemon Explorer",
       description:
         "In this project, I'm developing a web application to fetch and display data from a Pokémon API. The goal is to create a responsive and efficient frontend that showcases Pokémon data with pagination functionality.",
@@ -45,6 +60,18 @@ const Work = () => {
         "https://umar-anzar.github.io/karachi-city-computer-graphics/KARACHI%20CITY%20PROJECT/index.html",
       sourceCodeLink:
         "https://github.com/1zhanN/Computer-Graphics?tab=readme-ov-file",
+    },
+    {
+      title: "Linkedin Clone",
+      description:
+        "This is a complete responsive website clone of LinkedIn made using HTML, CSS, and JavaScript. It's a front-end website design project that replicates the appearance of the popular professional networking platform, LinkedIn.",
+      stack: [
+        { icon: <FaJsSquare />, name: "JavaScript" },
+        { icon: <FaHtml5 />, name: "HTML5" },
+        { icon: <FaCss3Alt />, name: "CSS3" },
+      ],
+      projectLink: "#",
+      sourceCodeLink: "https://github.com/1zhanN/Linkedin-Clone",
     },
     {
       title: "Sign-up Form",
@@ -104,20 +131,6 @@ const Work = () => {
       ],
       projectLink: "https://1zhann.github.io/WeatherApp/",
       sourceCodeLink: "https://github.com/1zhanN/WeatherApp?tab=readme-ov-file",
-    },
-    {
-      title: "Tomato",
-      description:
-        "A web-based (Frontend) platform that allows users to browse through various restaurants, view their menus, and place orders for delivery. It includes features such as user authentication, menu customization, order tracking, and payment processing.",
-      stack: [
-        { icon: <FaReact />, name: "React.js" },
-        { icon: <FaNodeJs />, name: "Node.js" },
-        { icon: <SiExpress />, name: "Express" },
-        { icon: <FaHtml5 />, name: "HTML5" },
-        { icon: <FaCss3Alt />, name: "CSS3" },
-      ],
-      projectLink: "#",
-      sourceCodeLink: "https://github.com/1zhanN/food-delivery",
     },
     {
       title: "Movie Land",

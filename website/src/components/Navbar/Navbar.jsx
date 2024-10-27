@@ -1,5 +1,6 @@
 import React from "react";
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -29,20 +30,30 @@ const Navbar = () => {
             >
               <FaLinkedin />
             </a>
+            <Link
+              href="/Frontend_Izhan_Nadeem.pdf" // Ensure this path is correct
+              locale={false} // Disables locale routing
+              target="_blank" // Opens in a new tab
+              rel="noopener noreferrer"
+              className="text-xl sm:text-2xl hover:scale-110"
+              title="Download or View Resume"
+            >
+              <FaDownload className="text-xl sm:text-2xl hover:scale-110" />
+            </Link>
           </div>
           <div className="flex items-center justify-end">
-            <a
+            <Link
               href="/"
               className="view cursor-none border-transparent mx-4 sm:mx-6 text-sm sm:text-base"
             >
               About Me
-            </a>
-            <a
+            </Link>
+            <Link
               href="/work"
               className="view cursor-none border-transparent mx-4 sm:mx-6 text-sm sm:text-base"
             >
               My Work
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

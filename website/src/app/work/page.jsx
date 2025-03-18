@@ -30,7 +30,6 @@ const Work = () => {
         { icon: <FaHtml5 />, name: "HTML5" },
         { icon: <FaCss3Alt />, name: "CSS3" },
         { icon: <SiSupabase />, name: "Supabase" },
-        { icon: <FaRobot />, name: "Gemini AI" },
       ],
       projectLink: "https://welth-peach.vercel.app/",
       sourceCodeLink: "https://github.com/1zhanN/welth",

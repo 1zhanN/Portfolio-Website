@@ -13,11 +13,28 @@ import {
   SiTypescript,
   SiNextdotjs,
   SiTailwindcss,
+  SiSupabase,
 } from "react-icons/si";
 import Image from "next/image";
 
 const Work = () => {
   const projects = [
+    {
+      title: "Welth - AI Finance Platform",
+      description:
+        "Developed a full-stack AI finance platform using React 19, Next.js 15, and Tailwind CSS. Integrated Supabase, Prisma, and Clerk Authentication for secure user management. Used Inngest for cron jobs and task scheduling, such as monthly email reports. Implemented Arcjet for bot detection and rate limiting to enhance security. Integrated Gemini AI to provide customized financial insights based on user expenditures, enabling data-driven decision-making.",
+      stack: [
+        { icon: <SiNextdotjs />, name: "Next.js" },
+        { icon: <SiTailwindcss />, name: "Tailwind" },
+        { icon: <FaNodeJs />, name: "Node.js" },
+        { icon: <FaHtml5 />, name: "HTML5" },
+        { icon: <FaCss3Alt />, name: "CSS3" },
+        { icon: <SiSupabase />, name: "Supabase" },
+        { icon: <FaRobot />, name: "Gemini AI" },
+      ],
+      projectLink: "https://welth-peach.vercel.app/",
+      sourceCodeLink: "https://github.com/1zhanN/welth",
+    },
     {
       title: "Tomato E-commerce Website",
       description:
